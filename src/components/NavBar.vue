@@ -13,7 +13,7 @@
       return {
         pages: [
           { title: "Accueil", route: "/" },
-          { title: "Portail patient", route: null },
+          { title: "Portail patient", route: "/portail-patient" },
           { title: "Portail clinique", route: null },
           { title: "Contactez", route: null },
           { title: "À propos", route: null }
