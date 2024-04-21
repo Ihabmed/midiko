@@ -4,8 +4,10 @@ import router from "./router";
 import store from "./store";
 import vuetify from "./plugins/vuetify";
 import { loadFonts } from "./plugins/webfontloader";
-import '@fortawesome/fontawesome-free/css/all.css';
+import i18n from "./i18n";
+
+//import '@fortawesome/fontawesome-free/css/all.css';
 
 loadFonts();
 
-createApp(App).use(router).use(store).use(vuetify).mount("#app");
+createApp(App).use(i18n).use(router).use(store).use(vuetify).mount("#app");
